@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Impact:wght@600&display=swap');
+
+@font-face {
+    font-family: 'Impact', sans-serif;
+}
+
+#circle_v3 a {
+    text-decoration: none !important;
+}
+
+#circle_v3 {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 294px;
+    height: 227px;
+    font: 400 10px/normal 'Impact', sans-serif;
+    align-items: center;
+    text-align: center;
+    color: #000 !important;
+    background: url('../svg/sp-50-01.svg') no-repeat;
+    border-radius: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+#circle_v3 a,
+#circle_v3 a.sq_bot,
+#circle_v3 a.sq_center {
+    text-decoration: none;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+
+#circle_v3 a.sq_bot,
+#circle_v3 a {
+    padding: 0;
+    margin: 0;
+}
+
+#circle_v3 p:empty {
+    display: none;
+}
+
+#circle_v3 p {
+    margin: 0;
+    padding: 0;
+}
+
+#circle_v3 br {
+    display: none;
+}
+
+#circle_v3 .sq_year {
+    color: #000;
+    width: 140px;
+    font: 22px/normal 'Akrobat Black', 'Helvetica Neue', 'Arial', sans-serif !important;
+    font-style: italic !important;
+    transform: rotate(-12deg);
+    position: absolute;
+    top: 41px;
+    left: 12px;
+    letter-spacing: 0.6px;
+}
+
+#circle_v3 a.sq_center {
+    text-transform: uppercase;
+    color: #fff;
+    width: 140px;
+    font: 16px/normal 'Impact', sans-serif;
+    font-style: italic !important;
+    transform: rotate(-12deg);
+    position: absolute;
+    z-index: 5;
+    top: 72px;
+    left: 12px;
+    letter-spacing: 0.4px;
+}
+
+#circle_v3 .arc-heading {
+    transform: rotate(2deg);
+    position: absolute;
+    z-index: 4;
+    top: 18px;
+    left: 57.5px;
+    letter-spacing: 0px;
+}
+
+#circle_v3 .ahref_emprty_area {
+    position: absolute;
+    top: calc(50% - 20px);
+    height: 40px;
+    width: 100%;
+    left: 0;
+    z-index: 99;
+}
+
+#circle_v3 .arc-heading.arc-heading.arc-heading__bottom,
+#circle_v3 .arc-heading.arc-heading.arc-headingbottom {
+    top: auto;
+    bottom: 8px;
+    left: 61.5px;
+    letter-spacing: 3px;
+    transform: rotate(-2deg);
+}
+
+#circle_v3 .arc-heading .arc-heading__heading {
+    font: 22px/1 'Impact', sans-serif;
+    text-transform: uppercase;
+}
+
+#circle_v3 .arc-heading .arc-heading__heading.f14,
+#circle_v3 .arc-heading.arc-two_str .arc-heading__heading.f14,
+#circle_v3 .arc-heading.arc-two_str2 .arc-heading__heading.f14 {
+    font-size: 14px !important;
+}
+
+#circle_v3 .arc-heading .arc-heading__heading.f12,
+#circle_v3 .arc-heading.arc-two_str .arc-heading__heading.f12,
+#circle_v3 .arc-heading.arc-two_str2 .arc-heading__heading.f12 {
+    font-size: 12px !important;
+}
+
+#circle_v3 .arc-heading .arc-heading__heading.f9,
+#circle_v3 .arc-heading.arc-two_str .arc-heading__heading.f9,
+#circle_v3 .arc-heading.arc-two_str2 .arc-heading__heading.f9 {
+    font-size: 9px !important;
+}
+
+#circle_v3 .arc-heading .arc-heading__subheading {
+    font: 18px/1 'Impact', sans-serif;
+    text-transform: uppercase;
+}
+
+#circle_v3 a.sq_center.f14 {
+    font-size: 14px !important;
+    top: 72px;
+    left: 16px;
+}
+
+#circle_v3 a.sq_center.f11 {
+    font-size: 11px !important;
+    top: 67px;
+    left: 16px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle_v3 a.sq_center.f10 {
+    font-size: 10px !important;
+    top: 75px;
+    left: 16px;
+}
+
+#circle_v3 a.sq_center.f9 {
+    font-size: 9px !important;
+    top: 75px;
+    left: 16px;
+}
+
+#circle_v3 a.sq_center.f8 {
+    font-size: 8px !important;
+    line-height: 1 !important;
+    top: 71px;
+    left: 16px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle_v3 .arc-heading.arc-two_str {
+    top: -16px;
+    left: 3px;
+    transform: rotate(-13deg);
+}
+
+#circle_v3 .arc-heading.arc-two_str2 {
+    transform: rotate(-13deg);
+    top: -2px;
+    left: 7px;
+}
+
+#circle_v3 .arc-heading.arc-two_str .arc-heading__heading,
+#circle_v3 .arc-heading.arc-two_str2 .arc-heading__heading {
+    font-size: 11px !important;
+}
+/* 
+div#circletype_v3_brand_name {
+    position: absolute;
+    height: 20px;
+    top: calc(50% - 16px);
+    margin-left: auto;
+    margin-right: auto;
+    left: 51%;
+    font-size: 18px;
+} */
